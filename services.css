@@ -1,0 +1,88 @@
+.services {
+    display: flex;
+    justify-content: center;
+    padding: 2% 4%;
+    font-size: 25px;
+}
+
+/* Section container */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;    /* ✅ allows wrapping for small screens */
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Main heading */
+.service-main {
+    font-size: 36px;
+    text-align: center;
+    margin: 40px auto;
+    width: 100%;
+}
+
+/* Sub headings */
+.service-sub {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* Each service box */
+.service-category {
+    flex: 1 1 350px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+/* Lists */
+.service-category ul {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+/* ===== Common image box style ===== */
+.hair-img, .beard-img, .skin-img, .massage-img, .grooming-img, .pack-img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* ===== Individual service images ===== */
+.hair-img {
+    background-image: url('hair.png');
+}
+.beard-img {
+    background-image: url('beard.png');
+}
+.skin-img {
+    background-image: url('skin.png');
+}
+.massage-img {
+    background-image: url('massage.png');
+}
+.grooming-img {
+    background-image: url('grooming.png');
+}
+.pack-img {
+    background-image: url('pack.png');
+}
+
+
+.btn-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

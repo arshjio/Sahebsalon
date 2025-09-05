@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>appointment form page</title>
+    <link rel="stylesheet" href="salon.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+        <div class="header">
+        <div class="nav-bar">
+            <button class="nav-btn"><i id="menu-icon" class="fa-solid fa-bars"></i></button>
+            <div class="sidebar">
+                <ul class="menu-list">
+                     <span class="closeBtn">×</span>
+                    <li id="home">HOME</li>
+                    <li id="about">ABOUT US</li>
+                    <li id="services">SERVICES</li>
+                    <li id="contact">CONTACT US</li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo">
+        </div>
+    </div>
+<div id="popupForm" class="form-body">
+    
+    <h2 class="h2">Book Appointment</h2>
+  <form action="https://formspree.io/f/xeozvrjz" method="POST" class="appointment-form">
+    <label for="name">Name <span class="required">*</span></label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="mobile">Mobile No <span class="required">*</span></label>
+    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10,15}" placeholder="Enter digits only" required />
+
+    <label for="email">Email ID (optional)</label>
+    <input type="email" id="email" name="_replyto" placeholder="example@mail.com" />    
+
+    <label for="address">Address</label>
+    <textarea id="address" name="address" rows="3" placeholder="Your full address"></textarea>
+
+    <label for="service">Service <span class="required">*</span></label>
+        <select id="service" name="service" required>
+  <option disabled style="font-weight:700; background:#eee; color:#000;">Hair</option>
+  <option value="Haircut">Haircut</option>
+  <option value="Hair Wash & Conditioning">Hair Wash & Conditioning</option>
+  <option value="Hair Styling">Hair Styling</option>
+  <option value="Hair Color / Grey Coverage">Hair Color / Grey Coverage</option>
+  <option value="Hair Spa">Hair Spa</option>
+
+  <option disabled style="font-weight:700; background:#eee; color:#000;">Beard & Shaving</option>
+  <option value="Beard Trim / Shaping">Beard Trim / Shaping</option>
+  <option value="Classic Shave">Classic Shave</option>
+  <option value="Luxury Shave (Hot Towel)">Luxury Shave (Hot Towel)</option>
+  <option value="Beard Color">Beard Color</option>
+
+  <option disabled style="font-weight:700; background:#eee; color:#000;">Face and Skin Care</option>
+  <option value="Express Facial">Express Facial</option>
+  <option value="Tan Removal">Tan Removal</option>
+  <option value="Face Cleanup & Massage">Face Cleanup & Massage</option>
+
+  <option disabled style="font-weight:700; background:#eee; color:#000;">Massage</option>
+  <option value="Head Massage">Head Massage</option>
+  <option value="Neck & Shoulder Massage">Neck & Shoulder Massage</option>
+
+  <option disabled style="font-weight:700; background:#eee; color:#000;">Grooming</option>
+  <option value="Eyebrow Threading">Eyebrow Threading</option>
+  <option value="Ear & Nose Hair Trim">Ear & Nose Hair Trim</option>
+
+  <option disabled style="font-weight:700; background:#eee; color:#000;">Grooming Packages</option>
+  <option value="Basic Grooming Pack">Basic Grooming Pack</option>
+  <option value="Premium Grooming Pack">Premium Grooming Pack</option>
+</select>
+
+
+    <button type="submit">Book Appointment</button>
+  </form>
+</div>
+<div class="footerbody">
+        <div class="footer">
+        <div class="footer-logo"></div>
+        <div class="box1">
+            <p id="about-page" class="box-text">ABOUT US <i class="fa-solid fa-arrow-up-right-from-square foot-icon1"></i> </p>
+        </div>
+        <div class="box2">
+            <p id="service-page" class="box-text">OUR SERVICES <i class="fa-solid fa-arrow-up-right-from-square foot-icon2"></i> </p>
+        </div>
+        <div class="box3">
+            <p id="form-page" class="box-text">BOOK NOW <i class="fa-solid fa-arrow-up-right-from-square foot-icon3"></i> </p>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="box-footer2 box-1st">
+            <p id="privacy-page" class="box-footer2-text">PRIVACY POLICY</p>
+        </div>
+        <div class="box-footer2">
+            <p id="access-page" class="box-footer2-text">ACCESSIBILITY</p>
+        </div>
+        <div class="box-footer2">
+            <p id="terms-page" class="box-footer2-text">TERMS OF SERVICE</p>
+        </div>
+        <div class="social">
+            <i id="insta" class="fa-brands fa-instagram"></i>
+            <i id="facebook" class="fa-brands fa-facebook-f"></i>
+            <i id="whatsapp" class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<script src="salon.js"></script>
+</body>
+</html>

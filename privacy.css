@@ -1,0 +1,70 @@
+.privacy-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+.date{
+    padding-left: 10px;
+    font-size: 8px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.para1{
+    padding-left: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+.links{
+    padding-left: 10px;
+    font-size: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head{
+    padding-left: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.para{
+    padding-left: 10px;
+    font-size: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.para6{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;        
+}
+
+.data{
+    padding-left: 10px;
+    font-size: 11px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.line{
+    margin-bottom: 20px;
+}
+
+.lastpara{
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 8px;
+}
+

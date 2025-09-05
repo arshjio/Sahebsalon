@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.terms-head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.para{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.head2{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.contact{
+    font-size: 10px;
+    margin-left: 20px;
+}

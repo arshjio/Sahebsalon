@@ -1,0 +1,29 @@
+
+.access-head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 38px;
+}
+
+.para{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.head2{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    padding-left: 12px;
+    margin-bottom: 20px;
+    font-size: 9px;
+}
